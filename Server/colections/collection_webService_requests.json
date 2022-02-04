@@ -1,0 +1,256 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2022-02-04T00:55:07.074Z",
+    "__export_source": "insomnia.desktop.app:v2021.7.2",
+    "resources": [
+        {
+            "_id": "req_f252c2dd0f8843e4aa61e4e5a71d6eac",
+            "parentId": "wrk_6fadea577b4c429fb4d36f406a1ad0fa",
+            "modified": 1643935893253,
+            "created": 1643935890777,
+            "url": "http://localhost:3000/employees/quantity/2",
+            "name": "GetByQuantity",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1643935890777,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_6fadea577b4c429fb4d36f406a1ad0fa",
+            "parentId": null,
+            "modified": 1643504342088,
+            "created": 1643504342088,
+            "name": "WebService Requests",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_bba25d3f68914579951d68568bd2e721",
+            "parentId": "wrk_6fadea577b4c429fb4d36f406a1ad0fa",
+            "modified": 1643935877117,
+            "created": 1643593972141,
+            "url": "http://localhost:3000/employees/office/Tech",
+            "name": "GetByOffice",
+            "description": "",
+            "method": "GET",
+            "body": {
+                "mimeType": "application/json",
+                "text": ""
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_1fd4abec874e4de5a5f4775fa8ec25c5"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1643593972141,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_49da3719b88d469b9279ae766d4dc439",
+            "parentId": "wrk_6fadea577b4c429fb4d36f406a1ad0fa",
+            "modified": 1643935897258,
+            "created": 1643593140093,
+            "url": "http://localhost:3000/employees/1",
+            "name": "Update",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"employee_name\": \"Teste Update\",\n\t\"employee_office\": \"Tech Lead\",\n\t\"employee_birth\": \"2002-03-12T00:00:00.0000\",\n\t\"employee_admission\": \"2022-01-22T00:00:00.0000\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_f97c4d1408ec41d0a28f8ac014c9ef8f"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1643593140093,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_cc8786aa64ce4904bed4e30e031745e9",
+            "parentId": "wrk_6fadea577b4c429fb4d36f406a1ad0fa",
+            "modified": 1643592382642,
+            "created": 1643592321465,
+            "url": "http://localhost:3000/employees/6",
+            "name": "Delete",
+            "description": "",
+            "method": "DELETE",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1643592321465,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_16a962629571430d8e30e861e6b1fb6a",
+            "parentId": "wrk_6fadea577b4c429fb4d36f406a1ad0fa",
+            "modified": 1643935844044,
+            "created": 1643505373014,
+            "url": "http://localhost:3000/employees",
+            "name": "Get",
+            "description": "",
+            "method": "GET",
+            "body": {
+                "mimeType": "application/json",
+                "text": ""
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_7f510e14c0724c2a9be316eb09b8c8de"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1643505373014,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_bfc01405defb4a589bcc6d92c333242f",
+            "parentId": "wrk_6fadea577b4c429fb4d36f406a1ad0fa",
+            "modified": 1643935900132,
+            "created": 1643590042247,
+            "url": "http://localhost:3000/employees/2",
+            "name": "GetById",
+            "description": "",
+            "method": "GET",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\n\t\n\t\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_7f510e14c0724c2a9be316eb09b8c8de"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1643505372989,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_4f9f8552a2784e1d827856abf4155752",
+            "parentId": "wrk_6fadea577b4c429fb4d36f406a1ad0fa",
+            "modified": 1643936000877,
+            "created": 1643581888652,
+            "url": "http://localhost:3000/employees",
+            "name": "Create",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\n\t\"employee_name\": \"Teste\",\n\t\"employee_office\": \"Tech Lead\",\n\t\"employee_birth\": \"2002-03-12T00:00:00.0000\",\n\t\"employee_admission\": \"2022-01-22T00:00:00.0000\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_7f510e14c0724c2a9be316eb09b8c8de"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1643505372964,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_c65dbac47f7e56f08cdd88df8bea41a406a5a2fb",
+            "parentId": "wrk_6fadea577b4c429fb4d36f406a1ad0fa",
+            "modified": 1643662621003,
+            "created": 1643504342106,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": {},
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1643504342106,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_c65dbac47f7e56f08cdd88df8bea41a406a5a2fb",
+            "parentId": "wrk_6fadea577b4c429fb4d36f406a1ad0fa",
+            "modified": 1643504342112,
+            "created": 1643504342112,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_93401b50d7a44714a5169b776752d6b3",
+            "parentId": "wrk_6fadea577b4c429fb4d36f406a1ad0fa",
+            "modified": 1643504342093,
+            "created": 1643504342093,
+            "fileName": "WebService Requests",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        }
+    ]
+}
